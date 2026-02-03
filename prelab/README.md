@@ -43,7 +43,7 @@
 ### Boolean Equation
 
 $$
-Y = AB + A'D + AB'D'
+Y = A'D + AC'D' + AB'CD'
 $$
 
 ### Digital Simulations
