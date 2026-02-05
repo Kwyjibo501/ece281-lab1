@@ -79,7 +79,7 @@ begin
 	w_sel(1) <= i_B;
 	w_sel(2) <= i_A;
 	
-	w_month <= i_D & i_C & i_B & i_A;
+	w_month <= i_A & i_B & i_C & i_D;
 	--enter your logic here to implement the mux.  See VHDL reference sheet for MUX syntax.	
 	o_Y <= '1' when (w_month = "0001") or
 	                   (w_month = "0011") or
